@@ -1,3 +1,15 @@
+/*
+Theme Name: Liberta Global Theme
+Theme URI: https://project.dgin.com.br/  
+Author: Jessica Silva dos Santos
+Author URI: https://dgin.com.br/ 
+Description: Um tema WordPress para Liberta Global.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: liberta-global-theme 
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
 
 /* Geral */
@@ -52,13 +64,25 @@ ul {
 	position: absolute;
 	top: 0;
 	left: 0;
+	background: linear-gradient(to bottom, rgb(0 0 0 / 75%) 0%, #00000000 100%);
 }
 
 .navbar-brand img {
 	height: 40px;
 }
 
-.header .navbar-nav .nav-link {
+ul#menu-menu li {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(255, 255, 255) !important;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.header #menu-menu li a {
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
@@ -69,19 +93,23 @@ ul {
 	color: #fff !important;
 }
 
-.header .navbar-nav .nav-link:hover {
+.header #menu-menu li a:hover {
 	color: #4FCF71 !important;
 	border-bottom: 1px solid #4FCF71 !important;
+	text-decoration:none;
 }
 
-.btn-custom-border {
+.header #menu-menu .btn-custom-border {
 	background-color: transparent !important;
-	border-color: #4FCF71 !important;
+	border: 2px solid #4FCF71 !important;
+	border-radius: .25rem;
 	color: #4FCF71 !important;
 	font-weight: bold;
 	letter-spacing: 0.2em !important;
+	text-decoration:none;
+	padding:10px 15px;
 }
-.btn-custom-border a:hover {
+.header #menu-menu .btn-custom-border:hover {
 	color: #fff !important;
 	border-bottom: 1px solid #4FCF71 !important;
 	background-color: #0B892C !important;
@@ -91,7 +119,7 @@ ul {
 .introducao {
 	position: relative;
 	overflow: hidden;
-	background: url("../img/bg.jpg") center/cover no-repeat;
+	background: url("https://project.dgin.com.br/wp-content/uploads/2025/03/bg.jpg") center/cover no-repeat;
 	top: 0;
 	height: 902px;
 	padding-top: 150px;
@@ -114,15 +142,17 @@ ul {
 	margin-bottom: 0.5rem;
 	color: #FFF;
 }
-
-.introducao h3 {
-	color: #fff;
-	font-weight: 300;
-	font-size: 1.5rem;
-}
-.introducao h3 b{
+.introducao h1 strong,
+.introducao h3 strong{
 	font-weight: 600;
 }
+.introducao h3 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin-top: 2em;
+}
+
 .introducao p {
 	margin-top: 2em;
 }
@@ -317,6 +347,18 @@ ul {
 	overflow: hidden;
 	margin-top: -14%;
 }
+.secao-ebook h2 {
+	color: #63FF8C;
+	font-weight: 300;
+	margin-bottom: 1.5rem !important;
+	font-size: 2.3rem;
+}
+.secao-ebook h2 strong {
+	font-weight: 600;
+}
+.secao-ebook h4 {
+	font-weight: 600;
+}
 
 .img-ipad {
 	width: 100%;
@@ -330,7 +372,15 @@ ul {
 	padding-top: 9em;
 	padding-bottom: 2em;
 }
-
+.secao-ebook p {
+	color:#fff;
+	line-height: 1.5 !important;
+}
+.book p{
+	color:#fff;
+	line-height: 1.5 !important;
+	font-size: 18px;
+}
 a.book-link {
 	color: #4FCF71 !important;
 	cursor: pointer;
@@ -415,7 +465,7 @@ a.book-link:hover {
 	border: none;
 }
 
-/* Nova Seção "Ensinar" */
+/* Seção "Ensinar" */
 .tablet-container {
 	margin-bottom: -30em;
 	position: relative;
@@ -451,7 +501,7 @@ a.book-link:hover {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url('../img/office-buildings.png');
+	background-image: url('https://project.dgin.com.br/wp-content/uploads/2025/03/office-buildings.png');
 	background-size: cover;
 	background-position: center;
 	opacity: 0.05;
