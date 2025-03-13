@@ -1,10 +1,10 @@
-# 🚀 Responsive WordPress Theme: Liberta Global (Fictício) com ACF 🎨
+# 🚀 Responsive WordPress Theme: Liberta Global (Fictício) com ACF 
 
-Este repositório contém o código-fonte de um tema WordPress personalizado e responsivo, criado para um projeto **fictício** chamado Liberta Global 🌎. O tema utiliza o plugin Advanced Custom Fields (ACF) para gerenciar conteúdos dinâmicos e deve ser considerado um MVP (Minimum Viable Product). 
+Este repositório contém o código-fonte de um tema WordPress personalizado e responsivo, criado para um projeto **fictício** chamado Liberta Global. O tema utiliza o plugin Advanced Custom Fields (ACF) para gerenciar conteúdos dinâmicos e deve ser considerado um MVP (Minimum Viable Product). 
 Algumas funcionalidades podem estar incompletas e melhorias futuras deem ser consideradas para otimizar o código, o design e a experiência do usuário.
 
 ## ✨ Visão Geral
- 📱. O tema é baseado em um layout fornecido no Figma (link abaixo) e utiliza o plugin Advanced Custom Fields (ACF) para gerenciar os conteúdos dinâmicos de forma intuitiva ✨.
+  O tema é baseado em um layout fornecido no Figma (link abaixo) e utiliza o plugin Advanced Custom Fields (ACF) para gerenciar os conteúdos dinâmicos de forma intuitiva .
 
 ## 🎨 Layout
 
@@ -20,37 +20,27 @@ Você pode ver uma demonstração do tema em funcionamento no seguinte link:
 
 ## 🛠️ Tecnologias Utilizadas
 
-*   **WordPress:** 🌐 A plataforma de gerenciamento de conteúdo (CMS) utilizada.
-*   **PHP:** 🐘 A linguagem de programação utilizada para desenvolver o tema WordPress.
-*   **HTML:** 🧱 A linguagem de marcação utilizada para estruturar o conteúdo do tema.
-*   **CSS:** 🎨 A linguagem de estilo utilizada para estilizar o tema.
-*   **Bootstrap:** 💙 Um framework CSS utilizado para criar um design responsivo.
-*   **Advanced Custom Fields (ACF):** ⚙️ Um plugin WordPress utilizado para gerenciar os conteúdos dinâmicos do tema.
-*   **JavaScript:** 📜 Para funcionalidades como o Carousel de Produtos.
-*   **Font Awesome:** 💎 Para os Ícones.
+*   **WordPress:**  A plataforma de gerenciamento de conteúdo (CMS) utilizada.
+*   **PHP:**  A linguagem de programação utilizada para desenvolver o tema WordPress.
+*   **HTML:**  A linguagem de marcação utilizada para estruturar o conteúdo do tema.
+*   **CSS:** A linguagem de estilo utilizada para estilizar o tema.
+*   **Bootstrap:** Um framework CSS utilizado para criar um design responsivo.
+*   **Advanced Custom Fields (ACF):** Um plugin WordPress utilizado para gerenciar os conteúdos dinâmicos do tema.
+*   **JavaScript:**  Para funcionalidades como o Carousel de Produtos.
 
 ## ⚙️ Funcionalidades
 
-*   **Tema WordPress customizado:** ✏️ Desenvolvido do zero, sem utilizar temas base.
-*   **Design Responsivo:** 📱 O tema se adapta a diferentes tamanhos de tela, incluindo dispositivos móveis.
-*   **Campos ACF:** 📝 Permite editar o conteúdo do tema de forma fácil e intuitiva através do painel do WordPress.
-*   **Menu Personalizável:** ☰ O menu do tema pode ser personalizado através do painel do WordPress.
-*   **Carrossel de produtos:** 🎠 Exibe os produtos em um carrossel dinâmico e personalizável.
-
-## 🚀 Configuração
-
-1.  Clone este repositório para o diretório `/wp-content/themes/` do seu WordPress.
-2.  Ative o tema `responsive-wordpress-theme-acf` no painel do WordPress.
-3.  Instale e ative o plugin Advanced Custom Fields (ACF).
-4.  Importe o arquivo `acf-fields.json` (opcional, se você tiver exportado a configuração do ACF).
-5.  Crie uma página e defina-a como página inicial nas configurações do WordPress.
-6.  Preencha os campos ACF na página inicial para personalizar o conteúdo do tema.
+*   **Tema WordPress customizado:**  Desenvolvido do zero, sem utilizar temas base.
+*   **Design Responsivo:**  O tema se adapta a diferentes tamanhos de tela, incluindo dispositivos móveis.
+*   **Campos ACF:**  Permite editar o conteúdo do tema de forma fácil e intuitiva através do painel do WordPress.
+*   **Menu Personalizável:**  O menu do tema pode ser personalizado através do painel do WordPress.
+*   **Carrossel de produtos:**  Exibe os produtos em um carrossel dinâmico e personalizável.
 
 ## 🗺️ Melhorias Futuras
 
-*   **Implementar a versão mobile com design pré-definido:** 📱 O design mobile atual é responsivo, mas não possui um design específico.
-*   **Adicionar mais campos ACF:** ➕ Para permitir personalizar mais aspectos do tema.
-*   **Otimizar o código:** ⚙️ Para melhorar o desempenho e a segurança do tema.
+*   **Implementar a versão mobile com design pré-definido:** O design mobile atual é responsivo, mas não possui um design específico.
+*   **Adicionar mais campos ACF:**  Para permitir personalizar mais aspectos do tema.
+*   **Otimizar o código:**  Para melhorar o desempenho e a segurança do tema.
 
 ## 🔒 Considerações de Segurança
 ### Plugins Essenciais
